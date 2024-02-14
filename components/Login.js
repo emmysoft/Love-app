@@ -20,6 +20,7 @@ const Login = () => {
         await AsyncStorage.setItem('token', password)
         if (password === 'inioluwanimi') {
             navigation.navigate('My Love')
+            Alert.alert("You my baby" + " 🤭")
         } else {
             Alert.alert('You are not Adu')
         }
@@ -28,7 +29,7 @@ const Login = () => {
     return (
         <View style={tw`flex justify-center items-center gap-12 bg-white h-full`}>
             <Text style={tw.style({ fontFamily: 'Dance' }, 'text-4xl text-center text-[#fc5457]')}>
-                Only Adu 💘  can Login
+                Who please? 🤭
             </Text>
             <View style={tw`flex justify-center items-center px-4`}>
                 <TextInput
