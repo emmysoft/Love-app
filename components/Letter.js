@@ -8,17 +8,17 @@ const Letter = () => {
     const navigation = useNavigation();
 
     return (
-        <View style={tw`flex justify-start items-center gap-8 m-auto px-4`}>
+        <View style={tw`flex justify-center items-center gap-8 px-4 bg-white h-full`}>
             <Text style={tw.style({ fontFamily: 'Roboto-Bold' }, 'text-xl text-[#fc5457] text-center')}>
                 Hey love 🌚🌝❤,
                 Having you in my life means a lot, 🤗
                 Not a lot actually, I meant all,
                 I now truly know love, 🥹🤗❤
                 Cos you really make me awe.
-                Tomorrow is the special day of love, 🗓🤗❤
+                Today is the special day of love, 🗓🤗❤
                 and although there's no millions to take you to Dubai shopping mall, 🥲
-                I still want to share my tomorrow, 🤗
-                with you as my one and only Love, 🥰❤ {"\n"} {"\n"} {"\n"}
+                I want to than GOD and I want to share my tomorrow, 🤗
+                with you as my one and only Love, 🥰❤ {"\n"} {"\n"} {"\n"} 
 
 
                 Will you be my Val Adu? 🥰❤

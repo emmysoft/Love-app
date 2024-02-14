@@ -1,3 +1,4 @@
+import "react-native-gesture-handler"
 import { StatusBar } from 'expo-status-bar';
 import { useFonts } from "expo-font";
 import * as SplashScreen from 'expo-splash-screen';
@@ -10,6 +11,7 @@ import MyLove from './components/MyLove';
 import Letter from './components/Letter';
 import Yes from './components/Yes';
 import No from './components/No';
+import Login from "./components/Login";
 
 SplashScreen.preventAutoHideAsync();
 const Stack = createStackNavigator();
@@ -37,9 +39,10 @@ export default function App() {
   }
   return (
     <>
-      <StatusBar style="auto" />
+      <StatusBar style="dark" backgroundColor="#fff" />
       <NavigationContainer>
         <Stack.Navigator>
+          <Stack.Screen name="Login" component={Login} options={{ headerShown: false }} />
           <Stack.Screen name="My Love" component={MyLove} options={{ headerShown: false }} />
           <Stack.Screen name="Love Letter" component={Letter} options={{ headerShown: false }} />
           <Stack.Screen name="Yes" component={Yes} options={{ headerShown: false }} />
