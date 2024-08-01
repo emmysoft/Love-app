@@ -10,8 +10,7 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.emmysoft.valapp"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
