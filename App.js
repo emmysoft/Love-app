@@ -10,7 +10,6 @@ import { createStackNavigator } from '@react-navigation/stack';
 import MyLove from './components/MyLove';
 import Letter from './components/Letter';
 import Yes from './components/Yes';
-import No from './components/No';
 import Login from "./components/Login";
 
 SplashScreen.preventAutoHideAsync();
@@ -46,7 +45,6 @@ export default function App() {
           <Stack.Screen name="My Love" component={MyLove} options={{ headerShown: false }} />
           <Stack.Screen name="Love Letter" component={Letter} options={{ headerShown: false }} />
           <Stack.Screen name="Yes" component={Yes} options={{ headerShown: false }} />
-          <Stack.Screen name="No" component={No} options={{ headerShown: false }} />
         </Stack.Navigator>
       </NavigationContainer>
     </>

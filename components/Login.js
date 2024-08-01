@@ -18,7 +18,7 @@ const Login = () => {
     //asyncstorage
     const handleLogin = async () => {
         await AsyncStorage.setItem('token', password)
-        if (password === 'inioluwanimi') {
+        if (password === 'Nifemmy') {
             navigation.navigate('My Love')
             Alert.alert("You my baby" + " 🤭")
         } else {
@@ -51,7 +51,7 @@ const Login = () => {
 
 
             <TouchableOpacity style={tw`flex flex-row justify-center items-center px-4 py-3 bg-[#FC5457] rounded-lg w-4/5`} onPress={handleLogin}>
-                <Text style={tw.style({ fontFamily: 'Roboto-Medium' }, 'text-base text-white text-center')}>Login Adu 🤟 </Text>
+                <Text style={tw.style({ fontFamily: 'Roboto-Medium' }, 'text-base text-white text-center')}>Login Adurewa 🤟 </Text>
             </TouchableOpacity>
         </View>
     )

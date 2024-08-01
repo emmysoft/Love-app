@@ -10,27 +10,32 @@ const Letter = () => {
     return (
         <View style={tw`flex justify-center items-center gap-8 px-4 bg-white h-full`}>
             <Text style={tw.style({ fontFamily: 'Roboto-Bold' }, 'text-xl text-[#fc5457] text-center')}>
-                Hey love 🌚🌝❤,
-                Having you in my life means a lot, 🤗
-                Not a lot actually, I meant all,
-                I now truly know love, 🥹🤗❤
-                Cos you really make me awe.
-                Today is the special day of love, 🗓🤗❤
-                and although there's no millions to take you to Dubai shopping mall, 🥲
-                I want to than GOD and I want to share my tomorrow, 🤗
-                with you as my one and only Love, 🥰❤ {"\n"} {"\n"} {"\n"} 
+                they say all that glitters is not gold 🪙
+                I say why not take it make it 😒
+                I am glad you came into my life 🤗🥰
+                I never expected a perfect one 🌚🌝
+                but I prayed for one I would love, and that would love me back, 🥹🤲
+                and I found you, by God's favor,
+                thank you for choosing me,
+                I know I am not the best of men you have met,
+                but you choosing me, has made me to choose to be a better man 🥹,
+                I Love you, and I don't mean that by words,
+                I mean it with my all,
+                you are not to be loved for one day, but for the rest of my life,
+                Adurewa 🥹🥰,
+                Ajoke mi 🥹🥰🫶
+                My treasure 😘💎
+                The Favor of GOD to me 🙏🏾🥰
+                My Joy 🥰
+                I LOVE YOU 🥰
+                To the best girlfriend in the world, Oluwanifemi 🥰,
+                Happy girlfriends day my Love and Queen of my heart 🥰
 
-
-                Will you be my Val Adu? 🥰❤
 
             </Text>
             <View style={tw`flex flex-row justify-center items-center gap-5 px-4 py-2`}>
                 <TouchableOpacity style={tw`bg-[#fc5457] rounded-lg px-5 py-2`}>
-                    <Text style={tw.style({ fontFamily: 'Roboto-Medium' }, 'text-center text-white text-base')} onPress={() => navigation.navigate("Yes")}>Yes? 🤗 </Text>
-                </TouchableOpacity>
-                <Text style={tw.style({ fontFamily: 'Roboto-Bold' }, 'text-base text-center text-[#fc5457]')}>Or</Text>
-                <TouchableOpacity style={tw`bg-white border-2 border-[#fc5457] rounded-lg px-5 py-2`}>
-                    <Text style={tw.style({ fontFamily: 'Roboto-Medium' }, 'text-center text-[#fc5457] text-base')} onPress={() => navigation.navigate("No")}>No 😞 </Text>
+                    <Text style={tw.style({ fontFamily: 'Roboto-Medium' }, 'text-center text-white text-base')} onPress={() => navigation.navigate("Yes")}> 🤗 </Text>
                 </TouchableOpacity>
             </View>
         </View>
